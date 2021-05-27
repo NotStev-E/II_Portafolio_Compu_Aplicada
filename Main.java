@@ -15,7 +15,7 @@ public class Main {
 		txt.Mensaje();
 		
 		System.out.println("");
-		
+		System.out.println("Coloca el comando ~help para encontrar información sobre los comandos de mi programa");	
 		boolean bucle = true;
 		
 		/*BUCLE DEL PROGRAMA*/
@@ -43,14 +43,13 @@ public class Main {
 				}else if(output.equals(commandData.sistemas[0])) {
 					sistemas.Bios();
 				}else if(output.equals(commandData.sistemas[1])) {
-					
+					sistemas.RAM();
 				}else if(output.equals(commandData.sistemas[2])) {
-					
+					sistemas.CPU();
 				}else if(output.equals(commandData.sistemas[3])) {
-					
+					sistemas.HDD();
 				}else if(output.equals(commandData.sistemas[4])) {
-					
-				
+					sistemas.SDD();
 				}else{
 					System.out.println("No se ha encontrado el comando "+"~"+output+".");
 					System.out.println("Ingresa el comando ~help para ver toda la información sobre los comandos disponibles.");
