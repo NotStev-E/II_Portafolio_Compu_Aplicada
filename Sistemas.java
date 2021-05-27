@@ -14,20 +14,20 @@ public class Sistemas {
 				+ "\n manipulan los distintos programas");
 	}
 	public static void CPU() {
-		System.out.println("Su trabajo es interpretar las instrucciones "
+		System.out.println(" Su trabajo es interpretar las instrucciones "
 				+ "\n de un programa informático mediante la realización de"
 				+ "\n las operaciones básicas aritméticas, lógicas y externas.");
 	}
 	public static void HDD() {
-		System.out.println("En informática, la unidad de disco duro o unidad de "
-				+ "disco rígido es un dispositivo de almacenamiento de datos que "
-				+ "emplea un sistema de grabación magnética para almacenar y "
-				+ "recuperar archivos digitales.");	
+		System.out.println(" En informática, la unidad de disco duro o unidad de "
+				+ " disco rígido es un dispositivo de almacenamiento de datos que "
+				+ " emplea un sistema de grabación magnética para almacenar y "
+				+ " recuperar archivos digitales.");	
 	}
 	public static void SDD() {
-		System.out.println("La unidad de estado sólido o SSD, también llamado a veces "
-				+ "disco de estado sólido pese a carecer de discos físicos, es un tipo "
-				+ "de dispositivo de almacenamiento de datos que utiliza memoria no volátil");
+		System.out.println(" La unidad de estado sólido o SSD, también llamado a veces "
+				+ " disco de estado sólido pese a carecer de discos físicos, es un tipo "
+				+ " de dispositivo de almacenamiento de datos que utiliza memoria no volátil");
 	}
 
 }
