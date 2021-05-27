@@ -8,6 +8,7 @@ public class Main {
 		CommandList commandData = new CommandList();
 		ArithmeticFunctions resultado = new ArithmeticFunctions();
 		Help help = new Help();
+		Sistemas sistemas = new Sistemas();
 		
 		/*MENSAJE INICIAL DEL PROGRAMA*/
 		Img txt = new Img();
@@ -39,6 +40,17 @@ public class Main {
 					help.CommandList();
 				}else if(output.equals(commandData.command[6])) {
 					bucle = false;
+				}else if(output.equals(commandData.sistemas[0])) {
+					sistemas.Bios();
+				}else if(output.equals(commandData.sistemas[1])) {
+					
+				}else if(output.equals(commandData.sistemas[2])) {
+					
+				}else if(output.equals(commandData.sistemas[3])) {
+					
+				}else if(output.equals(commandData.sistemas[4])) {
+					
+				
 				}else{
 					System.out.println("No se ha encontrado el comando "+"~"+output+".");
 					System.out.println("Ingresa el comando ~help para ver toda la información sobre los comandos disponibles.");
