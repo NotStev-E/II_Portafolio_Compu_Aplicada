@@ -2,32 +2,31 @@ package scl.edu.gt;
 
 public class Sistemas {
 	public static void Bios() {
-		System.out.println(" El propÛsito fundamental de la BIOS es "
+		System.out.println(" El prop√≥sito fundamental de la BIOS es "
 				+ "\n iniciar, probar el hardware del sistema y "
 				+ "\n cargar un gestor de arranque o un sistema operativo "
 				+ "\n desde de un dispositivo de almacenamiento de datos.");
 	}
-	public static void RAM() {
-		System.out.println(" En la RAM se cargan todas las instrucciones que "
-				+ "\n ejecuta la unidad central de procesamiento (CPU) y otras "
-				+ "\n unidades del computador, adem·s de contener los datos que"
-				+ "\n manipulan los distintos programas");
+	public static void Kernel() {
+		System.out.println(" En inform√°tica, un n√∫cleo o kernel es un software "
+				+ "\n que constituye una parte fundamental del sistema operativo,"
+				+ "\n y se define como la parte que se ejecuta en modo privilegiado.");
 	}
 	public static void CPU() {
 		System.out.println(" Su trabajo es interpretar las instrucciones "
-				+ "\n de un programa inform·tico mediante la realizaciÛn de"
-				+ "\n las operaciones b·sicas aritmÈticas, lÛgicas y externas.");
+				+ "\n de un programa inform√°tico mediante la realizaci√≥n de"
+				+ "\n las operaciones b√°sicas aritm√©ticas, l√≥gicas y externas.");
 	}
-	public static void HDD() {
-		System.out.println(" En inform·tica, la unidad de disco duro o unidad de "
-				+ " disco rÌgido es un dispositivo de almacenamiento de datos que "
-				+ " emplea un sistema de grabaciÛn magnÈtica para almacenar y "
-				+ " recuperar archivos digitales.");	
+	public static void Hardward() {
+		System.out.println(" El hardware, equipo o soporte f√≠sico‚Äã en inform√°tica se "
+				+ "\n refiere a las partes f√≠sicas, tangibles, de un sistema inform√°tico, "
+				+ "\n sus componentes el√©ctricos, electr√≥nicos, electromec√°nicos y mec√°nicos.‚Äã");
 	}
-	public static void SDD() {
-		System.out.println(" La unidad de estado sÛlido o SSD, tambiÈn llamado a veces "
-				+ " disco de estado sÛlido pese a carecer de discos fÌsicos, es un tipo "
-				+ " de dispositivo de almacenamiento de datos que utiliza memoria no vol·til");
+	public static void Software() {
+		System.out.println(" Se conoce como software‚Äã, logicial o soporte l√≥gico al sistema "
+				+ "\n formal de un sistema inform√°tico, que comprende el conjunto de los componentes "
+				+ "\n l√≥gicos necesarios que hacen posible la realizaci√≥n de tareas espec√≠ficas, en "
+				+ "\n contraposici√≥n a los componentes f√≠sicos que son llamados hardware.");
 	}
 
 }

@@ -8,11 +8,11 @@ public class CommandList {
 	String sistemasInfo [] = new String [5];
 	
 	CommandList(){
-		command[0]= "suma";
-		command[1]= "resta";
-		command[2]= "division";
-		command[3]= "multiplicacion";
-		command[4]= "residuo";
+		command[0]= "+";
+		command[1]= "-";
+		command[2]= "/";
+		command[3]= "*";
+		command[4]= "%";
 		command[5]= "help";
 		command[6]= "exit";
 		
@@ -25,10 +25,10 @@ public class CommandList {
 		Information[6]= " Este comando nos ayuda a detener el programa";
 		
 		sistemas[0]= "BIOS";
-		sistemas[1]= "RAM";
+		sistemas[1]= "Kernel";
 		sistemas[2]= "CPU";
-		sistemas[3]= "HDD";
-		sistemas[4]= "SSD";
+		sistemas[3]= "Hardware";
+		sistemas[4]= "Software";
 		
 		sistemasInfo[0]= " Este comando da información sobre este componente​";
 		sistemasInfo[1]= " Este comando da información sobre este componente​";
@@ -36,5 +36,4 @@ public class CommandList {
 		sistemasInfo[3]= " Este comando da información sobre este componente​";
 		sistemasInfo[4]= " Este comando da información sobre este componente​";
 	}
-
 }

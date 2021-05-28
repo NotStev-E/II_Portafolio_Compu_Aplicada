@@ -18,7 +18,7 @@ public class Help {
 		for(var i = 0;i < cantidadDeComandosSistemas;i++) {
 			System.out.println(""+data.sistemas[i]+" | ");
 			System.out.println(""+data.sistemasInfo[i]+" | ");
-			System.out.println("");
+			System.out.println("");	
 		}
 	}
 }
